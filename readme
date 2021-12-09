@@ -1,0 +1,49 @@
+
+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   token  monoblock  8 february 2022
+
+/etc/rc.local(profile)  start application
+sudo nano /etc/dhcpcd.conf        static ip(for raspberry)
+sudo apt-get install libqt5-* (for raspberry)
+libwiringpi.so(4files)  see Dell/Documents/Shared_2/WiringNP (for raspberry) to /usr/lib
+
+355 443 892 Nijni Novgorod server
+554 065 004 Arm Nijni
+
+192.168.11.3  Raduga Server
+192.168.88.201  Komanda K Server
+
+/etc/rc.local
+/home/pi/fa6_pi_temp &
+#sudo /home/pi/HyteraNet 192.168.0.26 65280
+
+sudo cp -v libw*.* /usr/lib/
+
+Для Распберри если нужен статический IP  /etc/dhcpcd.conf
+# Example static IP configuration:
+#interface eth0
+#static ip_address=192.168.0.10/24
+#static ip6_address=fd51:42f8:caae:d92e::ff/64
+#static routers=192.168.0.1
+#static domain_name_servers=192.168.0.1 8.8.8.8 fd51:42f8:caae:d92e::1
+
+Для Н3, чтобы виделось соединение с Хайтерой пишем в   /etc/network/interfaces
+#auto enx00000a0000df
+#allow-hotplug enx00000a0000df
+#iface enx00000a0000df inet static
+#address 192.168.10.2
+#netmask 255.255.255.0
+#gateway 192.168.10.1
+#auto enx00000a000
+
+sound>>
+sound>>
+sound>>
+sound>>
+ctr tcp: "01000600080000000541" 6
+send ptt release
+4180
+WAIT_STOP_CALL_REPLY
+43B8hang
+tx_timer slot ptt release
+4180
+WAIT_STOP_CALL_REPLY
